@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Simple Universal Webview App.xcodeproj">
+      location = "self:/Users/kvasan/ios-universal-webview-boilerplate/Zizveg.xcodeproj">
    </FileRef>
 </Workspace>

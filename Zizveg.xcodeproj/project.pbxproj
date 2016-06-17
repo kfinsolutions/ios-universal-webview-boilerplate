@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F9696E31B3455A200CDD77A /* Simple Universal Webview App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Universal Webview App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9696E31B3455A200CDD77A /* Zizveg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zizveg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9696E71B3455A200CDD77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9696E81B3455A200CDD77A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F9696EA1B3455A200CDD77A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F9696ED1B3455A200CDD77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F9696EF1B3455A200CDD77A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F9696F21B3455A200CDD77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3F9696F81B3455A200CDD77A /* Simple Universal Webview AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Universal Webview AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9696F81B3455A200CDD77A /* Zizveg.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zizveg.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9696FD1B3455A200CDD77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9697081B34835200CDD77A /* web_content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web_content; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,8 +59,8 @@
 		3F9696DA1B3455A200CDD77A = {
 			isa = PBXGroup;
 			children = (
-				3F9696E51B3455A200CDD77A /* Simple Universal Webview App */,
-				3F9696FB1B3455A200CDD77A /* Simple Universal Webview AppTests */,
+				3F9696E51B3455A200CDD77A /* zizveg */,
+				3F9696FB1B3455A200CDD77A /* ZizvegTests */,
 				3F9696E41B3455A200CDD77A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,13 +68,13 @@
 		3F9696E41B3455A200CDD77A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F9696E31B3455A200CDD77A /* Simple Universal Webview App.app */,
-				3F9696F81B3455A200CDD77A /* Simple Universal Webview AppTests.xctest */,
+				3F9696E31B3455A200CDD77A /* Zizveg.app */,
+				3F9696F81B3455A200CDD77A /* Zizveg.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F9696E51B3455A200CDD77A /* Simple Universal Webview App */ = {
+		3F9696E51B3455A200CDD77A /* zizveg */ = {
 			isa = PBXGroup;
 			children = (
 				3F9697081B34835200CDD77A /* web_content */,
@@ -85,6 +85,7 @@
 				3F9696F11B3455A200CDD77A /* LaunchScreen.xib */,
 				3F9696E61B3455A200CDD77A /* Supporting Files */,
 			);
+			name = zizveg;
 			path = "Simple Universal Webview App";
 			sourceTree = "<group>";
 		};
@@ -96,11 +97,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3F9696FB1B3455A200CDD77A /* Simple Universal Webview AppTests */ = {
+		3F9696FB1B3455A200CDD77A /* ZizvegTests */ = {
 			isa = PBXGroup;
 			children = (
 				3F9696FC1B3455A200CDD77A /* Supporting Files */,
 			);
+			name = ZizvegTests;
 			path = "Simple Universal Webview AppTests";
 			sourceTree = "<group>";
 		};
@@ -115,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F9696E21B3455A200CDD77A /* Simple Universal Webview App */ = {
+		3F9696E21B3455A200CDD77A /* Zizveg */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F9697021B3455A200CDD77A /* Build configuration list for PBXNativeTarget "Simple Universal Webview App" */;
+			buildConfigurationList = 3F9697021B3455A200CDD77A /* Build configuration list for PBXNativeTarget "Zizveg" */;
 			buildPhases = (
 				3F9696DF1B3455A200CDD77A /* Sources */,
 				3F9696E01B3455A200CDD77A /* Frameworks */,
@@ -127,14 +129,14 @@
 			);
 			dependencies = (
 			);
-			name = "Simple Universal Webview App";
+			name = Zizveg;
 			productName = "Simple Universal Webview App";
-			productReference = 3F9696E31B3455A200CDD77A /* Simple Universal Webview App.app */;
+			productReference = 3F9696E31B3455A200CDD77A /* Zizveg.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F9696F71B3455A200CDD77A /* Simple Universal Webview AppTests */ = {
+		3F9696F71B3455A200CDD77A /* ZizvegTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F9697051B3455A200CDD77A /* Build configuration list for PBXNativeTarget "Simple Universal Webview AppTests" */;
+			buildConfigurationList = 3F9697051B3455A200CDD77A /* Build configuration list for PBXNativeTarget "ZizvegTests" */;
 			buildPhases = (
 				3F9696F41B3455A200CDD77A /* Sources */,
 				3F9696F51B3455A200CDD77A /* Frameworks */,
@@ -145,9 +147,9 @@
 			dependencies = (
 				3F9696FA1B3455A200CDD77A /* PBXTargetDependency */,
 			);
-			name = "Simple Universal Webview AppTests";
+			name = ZizvegTests;
 			productName = "Simple Universal Webview AppTests";
-			productReference = 3F9696F81B3455A200CDD77A /* Simple Universal Webview AppTests.xctest */;
+			productReference = 3F9696F81B3455A200CDD77A /* Zizveg.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,6 +158,7 @@
 		3F9696DB1B3455A200CDD77A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Freeman Industries";
 				TargetAttributes = {
@@ -168,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F9696DE1B3455A200CDD77A /* Build configuration list for PBXProject "Simple Universal Webview App" */;
+			buildConfigurationList = 3F9696DE1B3455A200CDD77A /* Build configuration list for PBXProject "Zizveg" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +184,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F9696E21B3455A200CDD77A /* Simple Universal Webview App */,
-				3F9696F71B3455A200CDD77A /* Simple Universal Webview AppTests */,
+				3F9696E21B3455A200CDD77A /* Zizveg */,
+				3F9696F71B3455A200CDD77A /* ZizvegTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +233,7 @@
 /* Begin PBXTargetDependency section */
 		3F9696FA1B3455A200CDD77A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F9696E21B3455A200CDD77A /* Simple Universal Webview App */;
+			target = 3F9696E21B3455A200CDD77A /* Zizveg */;
 			targetProxy = 3F9696F91B3455A200CDD77A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -344,7 +347,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Simple Universal Webview App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zizgroup.Zizveg;
+				PRODUCT_NAME = Zizveg;
 			};
 			name = Debug;
 		};
@@ -354,7 +358,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Simple Universal Webview App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zizgroup.Zizveg;
+				PRODUCT_NAME = Zizveg;
 			};
 			name = Release;
 		};
@@ -372,8 +377,8 @@
 				);
 				INFOPLIST_FILE = "Simple Universal Webview AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Universal Webview App.app/Simple Universal Webview App";
+				PRODUCT_NAME = Zizveg;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zizveg.app/Zizveg";
 			};
 			name = Debug;
 		};
@@ -387,15 +392,15 @@
 				);
 				INFOPLIST_FILE = "Simple Universal Webview AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Universal Webview App.app/Simple Universal Webview App";
+				PRODUCT_NAME = Zizveg;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zizveg.app/Zizveg";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F9696DE1B3455A200CDD77A /* Build configuration list for PBXProject "Simple Universal Webview App" */ = {
+		3F9696DE1B3455A200CDD77A /* Build configuration list for PBXProject "Zizveg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F9697001B3455A200CDD77A /* Debug */,
@@ -404,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F9697021B3455A200CDD77A /* Build configuration list for PBXNativeTarget "Simple Universal Webview App" */ = {
+		3F9697021B3455A200CDD77A /* Build configuration list for PBXNativeTarget "Zizveg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F9697031B3455A200CDD77A /* Debug */,
@@ -413,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F9697051B3455A200CDD77A /* Build configuration list for PBXNativeTarget "Simple Universal Webview AppTests" */ = {
+		3F9697051B3455A200CDD77A /* Build configuration list for PBXNativeTarget "ZizvegTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F9697061B3455A200CDD77A /* Debug */,
